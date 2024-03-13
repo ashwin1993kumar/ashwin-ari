@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_fee_less_than_100</fullName>
+    <active>false</active>
+    <errorConditionFormula>Course_Fee__c &lt; 100</errorConditionFormula>
+    <errorMessage>Course fee should not be less than 100 $</errorMessage>
+</ValidationRule>
